@@ -14,11 +14,11 @@ body {
 }
 
 h1, h2 {
-  color: #DF01C9; /* Color para los encabezados xd */
+  color: #ffffff; /* Color para los encabezados xd */
 }
 
 header {
-  background: #726DA8; /* Fondo suave para el encabezado */
+  background: da2c38; /* Fondo suave para el encabezado */
   padding: 2rem;
   margin-bottom: 2rem;
 }
@@ -35,7 +35,7 @@ header p {
 
 .poetry {
   padding: 2rem;
-  background: #ffffff; /* Fondo blanco para el poema */
+  background: #CED3DC; /* Fondo plomoo para el poema */
   margin: 0 10%;
   border-radius: 10px; /* Bordes redondeados */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -49,7 +49,7 @@ header p {
 .verse {
   font-size: 1.5rem;
   line-height: 1.8;
-  color: #3b3b3b;
+  color: #ffffff;
   margin-bottom: 1.5rem;
 }
 
