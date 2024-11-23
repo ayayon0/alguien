@@ -1,26 +1,68 @@
+/* Estilos globales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+  font-family: 'Georgia', serif; /* Fuente elegante */
+  background: #f4f1f4; /* Color de fondo suave */
+  color: #3b3b3b; /* Texto oscuro */
+  line-height: 1.6;
+  text-align: center;
 }
 
-.container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    text-align: center;
+h1, h2 {
+  color: #d34e63; /* Color romántico para los encabezados */
 }
 
-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+header {
+  background: #f2dfe7; /* Fondo suave para el encabezado */
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.poetry {
+  padding: 2rem;
+  background: #ffffff; /* Fondo blanco para el poema */
+  margin: 0 10%;
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.poetry h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.verse {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  color: #3b3b3b;
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  padding: 1rem;
+  background: #d34e63;
+  color: #fff;
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
 }
