@@ -18,7 +18,7 @@ h1, h2 {
 }
 
 header {
-  background: da2c38; /* Fondo suave para el encabezado */
+  background: #da2c38; /* Fondo suave para el encabezado */
   padding: 2rem;
   margin-bottom: 2rem;
 }
@@ -56,7 +56,7 @@ header p {
 footer {
   padding: 1rem;
   background: #001314;
-  color: #fff;
+  color: #ffffff;
   font-size: 1rem;
   position: fixed;
   bottom: 0;
