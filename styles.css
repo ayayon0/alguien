@@ -7,18 +7,18 @@
 
 body {
   font-family: 'Georgia', serif; /* Fuente elegante */
-  background: #f4f1f4; /* Color de fondo suave */
+  background: #FE48EC; /* Color de fondo suave */
   color: #3b3b3b; /* Texto oscuro */
   line-height: 1.6;
   text-align: center;
 }
 
 h1, h2 {
-  color: #d34e63; /* Color romántico para los encabezados */
+  color: #DF01C9; /* Color para los encabezados xd */
 }
 
 header {
-  background: #f2dfe7; /* Fondo suave para el encabezado */
+  background: #726DA8; /* Fondo suave para el encabezado */
   padding: 2rem;
   margin-bottom: 2rem;
 }
@@ -55,7 +55,7 @@ header p {
 
 footer {
   padding: 1rem;
-  background: #d34e63;
+  background: #001314;
   color: #fff;
   font-size: 1rem;
   position: fixed;
