@@ -2,59 +2,30 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alguien san</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            max-width: 600px;
-            width: 100%;
-            padding: 30px;
-            animation: cascade 1s ease-out;
-        }
-        @keyframes cascade {
-            from {
-                opacity: 0;
-                transform: translateY(-50px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        .section {
-            margin-bottom: 20px;
-            opacity: 0;
-            animation: fadeIn 0.5s forwards;
-        }
-        @keyframes fadeIn {
-            to {
-                opacity: 1;
-            }
-        }
-        .section:nth-child(1) { animation-delay: 0.2s; }
-        .section:nth-child(2) { animation-delay: 0.4s; }
-        .section:nth-child(3) { animation-delay: 0.6s; }
-    </style>
+    <link rel="stylesheet" href="styles.cs">
 </head>
 <body>
-    <div class="container">
-        <div class="section">
-            <h1> En el paisaje de tus ojos</h1>
-            <p> En el paisaje de tus ojos</p>
-            <p> Comenzo mi aprendizaje</p>
-        </div>
-    </div>
+  <div class="container">
+    <header>
+      <h1>La Magia de la Poesía</h1>
+      <p>Un viaje entre palabras y sentimientos</p>
+    </header>
+    
+    <section class="poetry">
+      <h2>Poema de amor</h2>
+      <p class="verse">
+        En el paisaje de tus ojos <br>
+      </p>
+      <p class="verse">
+        Chuzos nawis?
+      </p>
+    </section>
+    
+    <footer>
+      <p>© 2024 ayayon</p>
+    </footer>
+  </div>
 </body>
 </html>
