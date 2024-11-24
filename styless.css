@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Georgia', serif; /* Fuente elegante */
-  background: #fe48ec; /* Color de fondo suave */
+  background: #ffffff; /* Color de fondo suave */
   color: #3b3b3b; /* Texto oscuro */
   line-height: 1.6;
   text-align: center;
@@ -35,7 +35,7 @@ header p {
 
 .poetry {
   padding: 2rem;
-  background: #ced3dc; /* Fondo plomoo para el poema */
+  background: #ffffff; /* Fondo plomoo para el poema */
   margin: 0 10%;
   border-radius: 10px; /* Bordes redondeados */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
